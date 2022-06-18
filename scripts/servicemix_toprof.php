@@ -13,7 +13,7 @@ if (!$link) {
     exit;
 }
 
-/* получаем номер вагона из вновь созданной заявки (возможно уменьшить до 1 секунды?)*/
+/* получаем номер вагона из вновь созданной заявки */
 $query1 = mysqli_query($link, "SELECT UF_CRM_1650003076612
     FROM b_uts_crm_deal bucr
     JOIN b_crm_deal bcm ON 
